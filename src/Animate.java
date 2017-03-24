@@ -8,9 +8,18 @@ public class Animate {
     int x = 1;
     int y = 1;
 
+    static class MyObject
+    {
+        public int x;
+
+        public MyObject(int x) {
+            this.x = x;
+        }
+    }
     public static void main(String[] args) {
         Animate gui = new Animate();
         gui.go();
+
     }
 
     public void go() {
